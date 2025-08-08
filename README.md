@@ -2,11 +2,17 @@
 
 ## Quick Start
 ```bash
-# Download all OrekX components
+# Download all OrecX components
 ./download_orecx.sh
 
 # Components will be in downloads/
 ls -la downloads/
+
+# Install MariaDB 11.4 LTS (see MARIADB_11.4_LTS_INSTALL.md for details)
+curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | sudo bash -s -- --mariadb-server-version=11.4
+sudo apt install mariadb-server mariadb-client  # Ubuntu/Debian
+# OR
+sudo yum install MariaDB-server MariaDB-client  # RHEL/CentOS
 ```
 
 ## JIRA Story Format Example

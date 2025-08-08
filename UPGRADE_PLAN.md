@@ -33,11 +33,13 @@ We have successfully downloaded 219MB of OrekX software:
 
 ### Phase 3: Component Upgrade Order
 
-#### 3.1 Database Upgrade
+#### 3.1 Database Upgrade to MariaDB 11.4 LTS
 - [ ] Backup existing database
+- [ ] Install MariaDB 11.4 LTS (see MARIADB_11.4_LTS_INSTALL.md)
 - [ ] Review schema changes between versions
 - [ ] Apply migration scripts if needed
 - [ ] Test database connectivity
+- [ ] Configure for OrecX requirements
 
 #### 3.2 OrkAudio Upgrade (5.50 → 6.50)
 ```bash
